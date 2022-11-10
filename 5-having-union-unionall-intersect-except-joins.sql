@@ -1,3 +1,13 @@
+----Contex----
+-- HAVING
+-- UNION OPERATORU
+--UNION ALL kullanımı
+-- INTERSECT KOMUTU
+--EXCEPT KOMUTU
+--JOINS
+----INNER JOIN
+
+
 -- HAVING
 --Eger bir sehirde calisan personel sayisi 1’den coksa sehir ismini ve personel sayisini veren sorgu yaziniz
 select * from personel5
