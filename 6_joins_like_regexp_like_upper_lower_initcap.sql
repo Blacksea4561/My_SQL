@@ -204,11 +204,15 @@ INSERT INTO musteri_urun VALUES (20, 'Elif', 'Elma');
 
 select * from musteri_urun
 
-select  distinct(urun_isim) from musteri_urun
+
+select  distinct(urun_isim) from musteri_urun 
+
 
 select  distinct musteri_isim from musteri_urun
 
-select  count(distinct(urun_isim)) as meyve_sayisi from musteri_urun 
+
+select musteri_isim , count(distinct(urun_isim)) as meyve_sayisi from musteri_urun 
+group by musteri_isim
 
 SELECT count(urun_isim), urun_isim from musteri_urun
 group by ( urun_isim )
